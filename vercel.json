@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "templatemo_622_clear/**",
+      "src": "templatemo_622_clearwave/**",
       "use": "@vercel/static"
     }
   ],
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/templatemo_622_clear/$1"
+      "destination": "/templatemo_622_clearwave/$1"
     }
   ]
 }
