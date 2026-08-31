@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "templatemo_622_clear/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/templatemo_622_clear/$1"
+    }
+  ]
+}
